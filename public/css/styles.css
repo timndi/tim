@@ -1,0 +1,245 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: #00020c;
+}
+.tim{
+  margin-top: 5rem;
+  width: 130px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+h5, h3, p{
+  color: #b3a6a6;
+}
+.text-input{
+  padding: .7rem 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e4cdcd;
+  font-size: 1.2em;
+  color: #444;
+  line-height: 1.5rem;
+  font-family: "ubuntu", sans-serif, serif, cursive;
+}
+
+
+ 
+/* section */
+.colored-section {
+  background-color: #000;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+/* navbar section */
+#title {
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 1;
+}
+.navbar {
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.logo-text-span{
+  color: blue;
+}
+.logo-text{
+  color: aqua;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+/* footer section */
+div .row{
+  margin: 0;
+  padding: 0;
+}
+
+.col-md-4{
+  margin: 0;
+  padding: 0;
+}
+.footer{
+  /* padding: 1rem; */
+  color: #d3d3d3;
+}
+.footer .footer-content .footer-section{
+  background-color:#010b14;
+  padding: 1rem 3rem 4rem;
+  /* margin-bottom: 3rem; */
+}
+.footer .footer-content .footer-section .contact{
+  /* margin-bottom: 6rem; */
+}
+.footer .footer-content .footer-section h2{
+  color: #fff;
+}
+.about{
+  margin-bottom: 1rem;
+}
+.footer .footer-content .about .contact span{
+  display: block;
+  font-size: 1.1em;
+}
+  .footer .footer-content .about .social a{
+    border: 1px solid grey;
+    width: 45px;
+    /* height: 41px; */
+    /* padding-top: 5px; */
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: all .3s;
+  }
+  .footer .footer-content .about .social a:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all .3s;
+  }
+  .footer .footer-content .links ul a{
+    color: #fff;
+    display: block;
+    /* margin-bottom: 10px; */
+    font-size: 1.2em;
+    transition: all .3s;
+  }
+.footer .footer-content .links ul a:hover{
+color: #fff;
+margin-left: 15px;
+transition: all .3s;
+}
+/* ///great onclick input fuction */
+.footer .footer-content .contact-form{
+  /* padding-bottom: 4rem; */
+}
+.footer .footer-content .contact-form .contact-input{
+  background-color: #010b14;
+  color: bebdbd;
+  margin-bottom: 5px;
+  line-height: 1.5rem;
+  /* padding: .9em 1.4rem; */
+  transition: all .6s;
+}
+.footer .footer-content .contact-form .contact-btn{
+  float: right;
+}
+.footer .footer-content .contact-form .contact-input:focus{
+  background-color: #f3f5f7;
+}
+.footer .footer-bottom{
+  background-color: #010b14;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+.skill{
+  margin: 0 1rem 1rem;
+}
+.skill-image{
+  width: 60px;
+  height: 50px;
+  padding: 1px;
+}
+
+/* newsletter section */
+.newsletter{
+  margin-top: 3rem;
+}
+.newsletter-img{
+  border-radius: 100%;
+  margin-bottom: .5rem;
+}
+.font-weight-normal{
+  color: #fff;
+  padding-top: 4rem;
+}
+.container{
+  /* width: 30%; */
+}
+.newsletter input{
+  margin: 0.6rem;
+  /* width: 100%; */
+}
+.newsletter .btn{
+  margin: 1rem;
+  padding: 0.6rem 4rem;
+}
+.newsletter-copyright{
+  color: #b3a6a6;
+}
+
+
+@media (min-width: 768px) {
+
+}
+/* @media (min-width: 360px) {
+ 
+} */
+@media only screen and (max-width: 360px){
+  
+  .row{
+    padding: 5rem;
+  }
+  div.footer-section.about{
+    width: 100%;
+    margin: 2rem;
+ }
+  .tim{
+    width: 80px;
+    height: 100px;
+    margin-top: 8rem;
+  }
+
+   }
+
+   @media only screen and (max-width: 306px){
+  
+    .row{
+      padding: 5rem;
+    }
+    div.footer-section.about{
+      width: 100%;
+      margin: 2rem;
+   }
+    img.tim{
+      width: 80px;
+      height: 100px;
+      margin-top: 100px;
+    }
+    .navbar-brand {
+      font-size: 1rem;
+      font-weight: bold;
+      /* display: none; */
+    }
+  
+     }
